@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Shop Page",
   "main": "app.js",
-  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node app.js",
     "start-server": "node app.js",
     "start:dev": "nodemon app.js"
@@ -13,6 +12,8 @@
   "author": "Matias Marin",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
     "nodemon": "^1.18.3"
   },
   "dependencies": {
